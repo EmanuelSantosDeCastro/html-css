@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: rgb(0, 0, 196);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:visited {
+            color: darkred;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        a:active {
+            color: darkcyan;
+        }
+        a::after {
+            content: '{link}';
+            text-decoration: none;
+            font-weight: bold;
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://youtu.be/mlC6u6AU-no?si=hr8SJqH97Ld_5i2W" target="_blank" rel="external">Rap de Anime Favorito MHRAP</a></li>
+        <li><a href="https://youtu.be/eW6U6z5tzwE?si=YI04ReXVKHPhOtJ_" target="_blank" rel="external">Rap de Anime Favorito 7mz</a></li>
+        <li><a href="https://youtu.be/GuR6L6-Lo_w?si=xRUG1huO9-MEjRDp" target="_blank" rel="external">Rap Favorito do Anirap</a></li>
+    </ul>
+</body>
+</html>
