@@ -1,0 +1,109 @@
+@charset "UTF-8";
+body {
+    background-color: black;
+    background-image: url('car.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 600px;
+    right: 20px;
+    
+}
+/* Menu*/
+.foto-picpay {
+    width: 100px;
+    margin: 12px;
+    padding: 10px;
+   
+}
+.list-nav { 
+    max-width: 1400px;
+    padding: 10px;
+    margin: 10px;
+  
+  
+}
+nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav> ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+  
+}
+nav ul li a {
+    padding: 10px 20px;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    
+}
+nav a:hover {
+    background-color: rgba(236, 243, 236, 0.786);
+    border-radius: 7px;
+}
+.menu1 {
+    background-color: #70eb9f;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+/* Conteudo */
+
+.color1 {
+    color: green;
+    font-size: 19px;
+}
+.color2 {
+    color: white;
+}
+.color3 {
+    font-size: 19   px;
+    color: rgb(97, 97, 97)
+}
+.color4 {
+    background-color: #21c25e;
+    font-size: 18px;
+    display: flex;
+    padding: 5px;
+    width: 315px;
+    border-radius: 6px;
+    margin: 7px;
+    
+}
+section {
+    margin: 13%;
+    font-size: 23px;
+}
+    .Form {
+        background-color: white;
+        padding: 10px 20px;
+        margin: 20px;
+        border: 20px;
+        border-radius: 10px;
+        width: 400px;
+        
+       
+        
+    }
+   .modi {
+    font-size: 18px;
+    padding: 5px;
+   
+    width: 320px;
+    border-radius: 4px;
+   }
+  .final {
+    
+    display: flex;
+    flex-direction: column;
+    color: rgb(194, 179, 179);
+   font-size: 15px;
+  }
+  
