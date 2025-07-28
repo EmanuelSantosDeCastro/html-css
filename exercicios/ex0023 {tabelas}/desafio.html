@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Desafio</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+           width: 550px;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;  
+            text-align: center;
+            font-size: 14px;
+        }
+     .Surtei {
+         background-color: #969595;
+        color: white;
+        
+     }
+     .area {
+        background-color: #969595;
+        color: white;
+     }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+        <th class="area" rowspan="2">Área</th>
+        <th class="area" rowspan="2">Diciplina</th>
+        <th class="area" colspan="2">Notas</th>
+        <th class="area" rowspan="2">Média</th>
+        <tr>
+            <th class="Surtei">Nota 1</th>
+            <th class="Surtei">Nota 2</th>
+        </tr>
+        
+        <tbody>
+           <tr>
+            <th rowspan="4">Exatas</th>
+            <td>Matématica</td>
+            <td>00</td>
+            <td>00</td>
+            <td>00</td>
+            
+           </tr>
+           <tr>
+            <td>Física</td>
+            <td>00</td>
+            <td>00</td>
+            <td>00</td>
+           </tr>
+           <tr>
+            <td>Química</td>
+            <td>23</td>
+            <td>54</td>
+            <td>145</td>
+           </tr>
+           <tr>
+            <td>Bíologia</td>
+            <td>32</td>
+            <td>64</td>
+            <td>15</td>
+            <tr>
+                <th class="area" colspan="4">Médias Exatas</th>
+                <td class="area">100</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanos</th>
+                <td>História</td>
+                <td>55</td>
+                <td>10</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>20</td>
+                <td>15</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <th class="area" colspan="4">Média de Humanas</th>
+                <td class="area">100</td>
+            </tr>
+           </tr>
+        </tbody>
+    </table>
+</body>
+</html>

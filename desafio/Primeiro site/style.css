@@ -3,6 +3,8 @@
     font-family: Android;
     src: url('idroid.otf') format('opentype');
  }
+
+    
  .white {
     background-color: white;
     padding: 10px;
@@ -18,7 +20,7 @@ body {
     text-align: center;
     font-weight: lighter;
     color: white;
-    
+
 }   
 
 header > h2 {
@@ -131,4 +133,14 @@ aside > ul {
 footer {
     background-color: rgba(117, 233, 117, 0.77);    
   margin: 10px;
+}
+
+.Center {
+ position: absolute;
+ margin-left: 150px;
+ justify-content: space-between;
+ align-items: center;
+ 
+
+
 }

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            
+            border-collapse: collapse;
+            width: 500px;
+
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+        caption {
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        tr.destaque {
+            background-color: rgb(13, 198, 13);
+        }
+        .cnome {
+            background-color: greenyellow;
+        }
+        .cgrupo {
+            background-color: yellow;
+        }
+        div#conteiner {
+            overflow-x: auto;
+        }
+    
+    </style>
+</head>
+<body>
+    
+        <h1>Exercicios de Tabelas</h1>
+        <div id="conteiner">
+            <table>
+                <colgroup>
+                    <col class="cnome">
+                    <col class="cgrupo" span="2">
+                    <col class="cprof">
+                </colgroup>
+                <caption>Cadastro</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>Feminino</td>
+                <td>25</td>
+                <td>Bancaria</td>
+            </tr>
+            <tr class="destaque">
+                <td>Emanuel</td>
+                <td>Masculino</td>
+                <td>24</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Dantes</td>
+                <td>Masculino</td>
+                <td>23</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Andre</td>
+                <td>Masculino</td>
+                <td>39</td>
+                <td>Mecánico</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Feminino</td>
+                <td>30</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr class="destaque">
+                <td>Júlia</td>
+                <td>Feminino</td>
+                <td>25</td>
+                <td>Médica</td>
+            </tr>
+            
+            </table>
+        </div>
+    
+</body>
+</html>
